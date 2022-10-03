@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI
+using UnityEngine.UI;
 public class SpeedControl : MonoBehaviour
 {
     //Atributos
@@ -13,9 +13,9 @@ public class SpeedControl : MonoBehaviour
         {
             Debug.Log("Mas despacio velocista");
         }
-        else 
+        if (Velocidad < 5) 
         {
-            
+            Debug.Log("Mas rapido anciano!");
         }
     }
 }
